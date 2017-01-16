@@ -1,0 +1,14 @@
+NET "LED<0>"    LOC = "P13" | IOSTANDARD = LVTTL            ;
+NET "LED<1>"    LOC = "P15" | IOSTANDARD = LVTTL            ;
+NET "LED<2>"    LOC = "P16" | IOSTANDARD = LVTTL            ;
+NET "LED<3>"    LOC = "P19" | IOSTANDARD = LVTTL            ;
+
+NET "BTN"       LOC = "P41" | IOSTANDARD = LVTTL            ;
+
+NET "BUZZ"      LOC = "P4"  | IOSTANDARD = LVCMOS33         ;
+
+NET "MAT"       LOC = "P5"  | IOSTANDARD = LVCMOS33         ;
+NET "EXTRST"    LOC = "P6"  | IOSTANDARD = LVTTL    | PULLUP;
+
+NET "MEM_CEN"   LOC = "P30" | IOSTANDARD = LVTTL            ;
+NET "BUSSW_OEN" LOC = "P3"  | IOSTANDARD = LVTTL            ;
